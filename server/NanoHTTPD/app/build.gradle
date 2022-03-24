@@ -65,7 +65,8 @@ dependencies {
 
     implementation project(path: ':common:fcm_token')
 
-    implementation project(path: ':common:NanoHTTPD')
+//    implementation project(path: ':common:NanoHTTPD')
+    implementation 'org.nanohttpd:nanohttpd:2.3.1'
 
     implementation 'com.android.support:design:+'
     implementation 'com.android.support:appcompat-v7:+'
